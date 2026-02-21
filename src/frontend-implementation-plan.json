@@ -1,0 +1,44 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Style visualizations to match SPSS software output",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update bar graph styling to match SPSS output aesthetics with clean, minimalist design, thin gridlines, standard gray axes, sans-serif labels, and muted statistical software colors",
+      "acceptanceCriteria": [
+        "Bar graphs display with thin horizontal gridlines on white background",
+        "Axis labels use standard sans-serif font (Arial or similar)",
+        "Chart colors use SPSS-style palette (muted blues, greens, oranges)",
+        "Bars have minimal spacing and no shadows or gradients",
+        "Legend and labels match typical SPSS output formatting"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/BarGraphVisualization.tsx",
+          "operation": "modify",
+          "description": "Update Recharts configuration to apply SPSS-style aesthetics: replace current color palette with muted SPSS colors (soft blue #4472C4, muted green #70AD47, soft orange #ED7D31), configure thin horizontal gridlines with stroke color #E0E0E0, set axis stroke to #808080, apply sans-serif font family (Arial or system-ui), remove bar shadows and gradients, minimize bar spacing using barCategoryGap and barGap props, and update legend styling to match SPSS output format"
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Update table styling to match SPSS output aesthetics with simple grid layout, thin borders, monospace or sans-serif fonts, subtle header background, and precise numeric alignment",
+      "acceptanceCriteria": [
+        "Tables display with thin, consistent borders around all cells",
+        "Header row has subtle gray background distinguishing it from data rows",
+        "Numeric values are right-aligned and use consistent decimal places",
+        "Text values are left-aligned",
+        "Font matches SPSS output (typically Arial or Courier)",
+        "No rounded corners or decorative styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TableVisualization.tsx",
+          "operation": "modify",
+          "description": "Apply SPSS-style table formatting: add thin border (1px solid #D0D0D0) to all table cells, apply subtle gray background (#F5F5F5) to header row, implement right-alignment for numeric values and left-alignment for text values using cell content detection, set font family to Arial or system sans-serif, remove rounded corners and decorative styling from table and cards, ensure consistent spacing and padding that matches statistical software output aesthetics"
+        }
+      ]
+    }
+  ]
+}

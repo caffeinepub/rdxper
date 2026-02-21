@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "RDXper is a web app that generates bar graphs and tables based on a research topic entered by the user",
+  "architectural_notes": [
+    "Web application architecture",
+    "Data visualization using bar graphs and tables",
+    "Research topic input as primary data source",
+    "Tech stack: vanilla JavaScript, CSS, and HTML (no frameworks)",
+    "Visual styling should emulate SPSS statistical software output"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-research-topic-input-form-on-the-frontend-that-allows-users-to-enter-a-research-topic-as-text",
+      "title": "Create a research topic input form on the frontend that allows users to enter a research topic as text",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-frontend-components-to-render-bar-graphs-from-the-generated-data",
+      "title": "Create frontend components to render bar graphs from the generated data",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-frontend-components-to-render-tables-from-the-generated-data",
+      "title": "Create frontend components to render tables from the generated data",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-cohesive-visual-theme-for-rdxper-with-a-professional-data-focused-aesthetic-using-clean-typography-a-research-appropriate-color-palette-avoiding-blue-and-purple-and-structured-layouts-that-emphasize-data-clarity-and-readability",
+      "title": "Design a cohesive visual theme for RDXper with a professional, data-focused aesthetic using clean typography, a research-appropriate color palette (avoiding blue and purple), and structured layouts that emphasize data clarity and readability",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-numeric-input-field-to-the-research-topic-form-that-allows-users-to-specify-the-number-of-figures-data-points-to-generate-e-g-number-of-bars-in-graph-number-of-rows-in-table",
+      "title": "Add a numeric input field to the research topic form that allows users to specify the number of figures/data points to generate (e.g., number of bars in graph, number of rows in table)",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-data-fetching-hooks-to-pass-the-user-specified-figure-count-to-backend-queries",
+      "title": "Update frontend data fetching hooks to pass the user-specified figure count to backend queries",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-caffeine-logo-and-any-branding-footer-from-the-application-ui",
+      "title": "Remove the Caffeine logo and any branding footer from the application UI",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-bar-graph-styling-to-match-spss-output-aesthetics-use-a-clean-minimalist-design-with-thin-gridlines-standard-gray-axes-sans-serif-labels-and-muted-default-colors-typical-of-statistical-software-output",
+      "title": "Update bar graph styling to match SPSS output aesthetics: use a clean, minimalist design with thin gridlines, standard gray axes, sans-serif labels, and muted default colors typical of statistical software output",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-table-styling-to-match-spss-output-aesthetics-use-a-simple-grid-layout-with-thin-borders-monospace-or-sans-serif-fonts-for-data-cells-header-row-with-subtle-background-and-precise-alignment-of-numeric-values",
+      "title": "Update table styling to match SPSS output aesthetics: use a simple grid layout with thin borders, monospace or sans-serif fonts for data cells, header row with subtle background, and precise alignment of numeric values",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Accept research topic input from user",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Generate bar graphs from research topic",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Generate tables from research topic",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Implement backend logic to process research topic input and generate structured data suitable for bar graphs",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Implement backend logic to process research topic input and generate structured tabular data",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Allow user to specify the number of figures/data points to generate",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Remove caffeine logo from the application footer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Update backend query functions to accept a figure count parameter and return the specified number of data points for both bar graph and table data",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Style bar graphs and tables to match SPSS software output aesthetics",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "RDXper",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

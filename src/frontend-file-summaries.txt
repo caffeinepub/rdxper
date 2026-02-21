@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the research topic form with figure count control, bar graph visualizations, and table displays with loading states and empty states; footer now displays only copyright without Caffeine branding.",
+  "frontend/src/components/ResearchTopicForm.tsx": "Form component with input validation that accepts research topics and figure count (1-100) with validation, triggering data generation on submit.",
+  "frontend/src/components/BarGraphVisualization.tsx": "Component that renders bar graph visualizations using Recharts with SPSS-style aesthetics including thin horizontal gridlines, Arial font, muted statistical colors (#4472C4, #70AD47), minimal spacing, and no shadows or rounded corners.",
+  "frontend/src/components/TableVisualization.tsx": "Component that renders tabular data with SPSS-style formatting including thin borders (#D0D0D0), subtle gray header background (#F5F5F5), Arial font, right-aligned numeric values, left-aligned text values, and no rounded corners or decorative styling.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks that fetch bar graph and table data from the backend actor based on research topics and figure count parameter, passing figureCount as bigint to backend methods.",
+  "frontend/src/index.css": "Global styles with a warm, earthy OKLCH color system (terracotta, sand, amber) optimized for data visualization in both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom typography, enhanced shadows, and extended theme tokens for the data-focused design system."
+}

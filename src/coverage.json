@@ -1,0 +1,49 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-21T11:33:05.654Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-11",
+        "summary": "Update bar graph styling to match SPSS output aesthetics: use a clean, minimalist design with thin gridlines, standard gray axes, sans-serif labels, and muted default colors typical of statistical software output",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/BarGraphVisualization.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/BarGraphVisualization.tsx"
+        ]
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Update table styling to match SPSS output aesthetics: use a simple grid layout with thin borders, monospace or sans-serif fonts for data cells, header row with subtle background, and precise alignment of numeric values",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/TableVisualization.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/TableVisualization.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/BarGraphVisualization.tsx",
+    "frontend/src/components/TableVisualization.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

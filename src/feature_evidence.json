@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-bar-graph-styling-to-match-spss-output-aesthetics-use-a-clean-minimalist-design-with-thin-gridlines-standard-gray-axes-sans-serif-labels-and-muted-default-colors-typical-of-statistical-software-output",
+      "featureTitle": "Update bar graph styling to match SPSS output aesthetics: use a clean, minimalist design with thin gridlines, standard gray axes, sans-serif labels, and muted default colors typical of statistical software output",
+      "files": [
+        "frontend/src/components/BarGraphVisualization.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-table-styling-to-match-spss-output-aesthetics-use-a-simple-grid-layout-with-thin-borders-monospace-or-sans-serif-fonts-for-data-cells-header-row-with-subtle-background-and-precise-alignment-of-numeric-values",
+      "featureTitle": "Update table styling to match SPSS output aesthetics: use a simple grid layout with thin borders, monospace or sans-serif fonts for data cells, header row with subtle background, and precise alignment of numeric values",
+      "files": [
+        "frontend/src/components/TableVisualization.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

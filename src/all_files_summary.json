@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Motoko actor that defines BarGraphData and TableData types and provides query functions to fetch mock bar graph and table data, repeating a single hardcoded dataset based on the requested figure count.",
+  "feature_evidence.json": "Feature evidence report documenting two styling features: updating bar graph and table visualizations to match SPSS output aesthetics with minimalist design, thin borders, and muted colors.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the main app structure, form validation, SPSS-styled visualizations, React Query hooks, and design system configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark modes, defining a neutral grayscale palette with chart colors and sidebar theming.",
+  "frontend/index.html": "HTML entry point for the RDXper application that loads the React app via main.tsx.",
+  "frontend/src/App.tsx": "Main React component that manages research topic submission, figure count state, and orchestrates rendering of bar graph and table visualizations with loading and empty states.",
+  "frontend/src/components/BarGraphVisualization.tsx": "React component that renders bar charts using Recharts with SPSS-style aesthetics including Arial font, muted colors (#4472C4, #70AD47), thin gridlines, and no rounded corners or shadows.",
+  "frontend/src/components/ResearchTopicForm.tsx": "Form component with validation for research topic input and figure count (1-100), displaying error messages and triggering data generation on submit.",
+  "frontend/src/components/TableVisualization.tsx": "React component that renders tabular data with SPSS-style formatting including thin borders, Arial font, subtle gray headers, right-aligned numeric values, and a summary statistics card.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an authenticated or anonymous actor for backend communication, using Internet Identity and React Query with automatic invalidation of dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching bar graph and table data from the backend actor, both accepting research topic and figure count parameters.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm, earthy color palette for light and dark modes, designed for a data-focused aesthetic.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors using OKLCH color space, border radius variables, custom shadows, fonts, and animations for the design system.",
+  "project_state.json": "Project metadata describing RDXper as a research data visualization web app that generates SPSS-styled bar graphs and tables from user-entered research topics and figure counts, with a warm earthy color palette avoiding blue and purple."
+}

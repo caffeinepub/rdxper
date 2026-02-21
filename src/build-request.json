@@ -1,0 +1,62 @@
+{
+  "kind": "build_request",
+  "title": "Style visualizations to match SPSS software output",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update bar graph styling to match SPSS output aesthetics: use a clean, minimalist design with thin gridlines, standard gray axes, sans-serif labels, and muted default colors typical of statistical software output",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "The figures should be like they were generated from spss software"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Bar graphs display with thin horizontal gridlines on white background",
+        "Axis labels use standard sans-serif font (Arial or similar)",
+        "Chart colors use SPSS-style palette (muted blues, greens, oranges)",
+        "Bars have minimal spacing and no shadows or gradients",
+        "Legend and labels match typical SPSS output formatting"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Update table styling to match SPSS output aesthetics: use a simple grid layout with thin borders, monospace or sans-serif fonts for data cells, header row with subtle background, and precise alignment of numeric values",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "The figures should be like they were generated from spss software"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Tables display with thin, consistent borders around all cells",
+        "Header row has subtle gray background distinguishing it from data rows",
+        "Numeric values are right-aligned and use consistent decimal places",
+        "Text values are left-aligned",
+        "Font matches SPSS output (typically Arial or Courier)",
+        "No rounded corners or decorative styling"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain the existing warm color palette in non-chart UI elements",
+    "Do not modify backend data structures or query functions",
+    "Keep all existing frontend routing and state management intact"
+  ],
+  "nonGoals": [
+    "Adding SPSS file export functionality",
+    "Implementing SPSS statistical calculations",
+    "Changing the research topic input form design"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
